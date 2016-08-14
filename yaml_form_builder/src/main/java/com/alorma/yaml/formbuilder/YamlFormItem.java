@@ -6,6 +6,7 @@ import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true) public class YamlFormItem {
   @JsonProperty("hint") public String hint;
+  @JsonProperty("checked") public boolean checked;
   @JsonProperty("max") public int max;
   @JsonProperty("multiline") public boolean multiline;
   @JsonProperty("values") public List<String> values;

@@ -43,3 +43,9 @@ form:
       emojis: true
       images: true
       source: true
+ - key: "status"
+   type: checkbox
+   label: "Status"
+   params:
+    hint: "Status"
+    checked: true
