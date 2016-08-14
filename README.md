@@ -59,7 +59,6 @@ form:
 And initialize yout fragment:
 
 ```java
-
 public class SampleFormFragment extends YamlFormFragment {
   @Override
   protected InputStream getFormInputStream() {
@@ -67,3 +66,7 @@ public class SampleFormFragment extends YamlFormFragment {
   }
 }
 ```
+
+And that's it!
+
+![Form](art/yamlreader.png)
