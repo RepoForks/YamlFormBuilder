@@ -10,6 +10,7 @@ import java.util.List;
   @JsonProperty("multiline") public boolean multiline;
   @JsonProperty("values") public List<String> values;
   @JsonProperty("mode") public YamlFormObjectMode mode;
+  @JsonProperty("extras") public YamlFormItemExtras extras;
 
   @Override
   public String toString() {
@@ -19,6 +20,7 @@ import java.util.List;
         ", multiline=" + multiline +
         ", values=" + values +
         ", mode=" + mode +
+        ", extras=" + extras +
         '}';
   }
 }
